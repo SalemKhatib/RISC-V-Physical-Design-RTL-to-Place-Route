@@ -1,0 +1,111 @@
+****************************************
+Report : qor
+Design : riscv_core
+Version: V-2023.12-SP3
+Date   : Wed Jul 29 20:30:19 2026
+****************************************
+
+
+Scenario           'default'
+Timing Path Group  '**in2reg_default**'
+----------------------------------------
+Levels of Logic:                     86
+Critical Path Length:              2.73
+Critical Path Slack:               7.07
+Critical Path Clk Period:         10.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+----------------------------------------
+
+Scenario           'default'
+Timing Path Group  '**reg2out_default**'
+----------------------------------------
+Levels of Logic:                     24
+Critical Path Length:              1.76
+Critical Path Slack:               7.91
+Critical Path Clk Period:         10.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+----------------------------------------
+
+Scenario           'default'
+Timing Path Group  '**in2out_default**'
+----------------------------------------
+Levels of Logic:                     22
+Critical Path Length:              1.44
+Critical Path Slack:               8.21
+Critical Path Clk Period:         10.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+----------------------------------------
+
+Scenario           'default'
+Timing Path Group  'clk_i'
+----------------------------------------
+Levels of Logic:                     86
+Critical Path Length:              2.85
+Critical Path Slack:               6.98
+Critical Path Clk Period:         10.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+Worst Hold Violation:              0.00
+Total Hold Violation:              0.00
+No. of Hold Violations:               0
+----------------------------------------
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:              0
+Hierarchical Port Count:              0
+Leaf Cell Count:                  11797
+Buf/Inv Cell Count:                 948
+Buf Cell Count:                     109
+Inv Cell Count:                     839
+Combinational Cell Count:          9478
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    0
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:             2319
+   Integrated Clock-Gating Cell Count:                     0
+   Sequential Macro Cell Count:                            0
+   Single-bit Sequential Cell Count:                       2319
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            1.00
+Macro Count:                          0
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:             3717.48
+Noncombinational Area:          2815.45
+Buf/Inv Area:                    197.31
+Total Buffer Area:                48.31
+Total Inverter Area:             149.01
+Macro/Black Box Area:              0.00
+Net Area:                             0
+Net XLength:                   62536.26
+Net YLength:                   69296.99
+----------------------------------------
+Cell Area (netlist):                           6532.93
+Cell Area (netlist and physical only):        10908.55
+Net Length:                   131833.25
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:             12582
+Nets with Violations:              4443
+Max Trans Violations:                 0
+Max Cap Violations:                   0
+----------------------------------------
+
+1

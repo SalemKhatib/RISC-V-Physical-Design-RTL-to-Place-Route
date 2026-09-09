@@ -1,0 +1,80 @@
+****************************************
+Report : power
+        -significant_digits 2
+Design : riscv_core
+Version: V-2023.12-SP3
+Date   : Wed Jul 29 20:30:19 2026
+****************************************
+Information: Activity propagation will be performed for scenario default.
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2_0P5' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2_1' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2_2' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2_4' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2LP_0P5' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2LP_1' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBSBQ_V2LP_2' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPRBQ_V2LP_2' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPSBQ_V2LP_0P5' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Warning: Mapping to scan cell 'SAEDLVT14_FSDPSBQ_V2LP_1' in library is not possible because cell has 'dont_use' attribute. (SQM-1067)
+Information: Doing activity propagation for mode 'default' and corner 'default' with effort level 'medium'. (POW-024)
+Information: Timer-derived activity data is cached on scenario default (POW-052)
+Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
+Information: Running switching activity propagation in scalar mode!
+
+ **** Information : No. of simulation cycles = 7 ****
+Mode: default
+Corner: default
+Scenario: default
+Voltage: 0.71
+Temperature: 125.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1pF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_48103 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.309100, value = 0.000899 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port A1 on cell place_optctmTdsLR_1_5205 for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000420 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell place_optctmTdsLR_1_5205 for parameter Tinp. Lowest table value = 0.001000, highest table value = 1.000000, value = 0.000534 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell place_optctmTdsLR_1_5205 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.135700, value = 0.000591 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell place_optctmTdsLR_1_5207 for parameter Cout. Lowest table value = 0.001000, highest table value = 0.165800, value = 0.000700 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell u_fetch/pc_d_q_reg[15] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.161100, value = 0.000999 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell u_fetch/skid_buffer_q_reg[64] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.161100, value = 0.000915 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell u_fetch/skid_buffer_q_reg[62] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.161100, value = 0.000687 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell u_fetch/skid_buffer_q_reg[61] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.161100, value = 0.000972 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port Q on cell u_fetch/skid_buffer_q_reg[60] for parameter Cout. Lowest table value = 0.001000, highest table value = 0.161100, value = 0.000508 (POW-046)
+Note - message 'POW-046' limit (10) exceeded. Remainder will be suppressed.
+Warning: Rise-Fall toggles on pin phfnr_buf_4216/X are impossible given input states; converted to zero toggles. (POW-069)
+
+  Cell Internal Power    = 3.70e+08 pW ( 74.4%)
+  Net Switching Power    = 1.27e+08 pW ( 25.6%)
+Total Dynamic Power      = 4.98e+08 pW (100.0%)
+
+Cell Leakage Power       = 1.69e+08 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+memory                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+black_box                 0.00e+00               0.00e+00               4.84e-08               4.84e-08    (  0.0%)         
+clock_network             3.62e+08               1.07e+08               6.40e+06               4.75e+08    ( 71.4%)        i
+register                  1.37e+06               1.55e+06               7.60e+07               7.89e+07    ( 11.8%)         
+sequential                0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+combinational             6.87e+06               1.88e+07               8.62e+07               1.12e+08    ( 16.8%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     3.70e+08 pW            1.27e+08 pW            1.69e+08 pW            6.66e+08 pW
+1
