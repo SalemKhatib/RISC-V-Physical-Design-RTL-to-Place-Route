@@ -1,0 +1,23 @@
+****************************************
+Report : area
+Design : riscv_core
+Version: V-2023.12-SP3
+Date   : Wed Jul 29 20:30:19 2026
+****************************************
+
+Number of ports:                          271
+Number of nets:                         12582
+Number of cells:                        11797
+Number of combinational cells:           9478
+Number of sequential cells:              2319
+Number of macros/black boxes:               0
+Number of buf/inv:                        948
+Number of references:                     121
+
+Combinational area:                   3717.48
+Buf/Inv area:                          197.31
+Noncombinational area:                2815.45
+Macro/Black Box area:                    0.00
+
+Total cell area:                      6532.93
+1
