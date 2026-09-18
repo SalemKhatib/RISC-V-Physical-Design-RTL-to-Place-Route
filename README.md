@@ -40,6 +40,7 @@ The RISC-V RTL, timing constraints, technology libraries, and several helper scr
 - ✅ 0 open nets
 - ✅ 0 routing DRC violations
 - ✅ Power/Ground connectivity clean
+<img width="498" height="494" alt="layoutt" src="https://github.com/user-attachments/assets/45c7f1dd-0058-4513-bc14-ec5552f48f42" />
 
 ---
 
